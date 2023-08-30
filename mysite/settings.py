@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['KevinJH.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'pets',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

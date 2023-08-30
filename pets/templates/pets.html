@@ -1,0 +1,8 @@
+<h1>Lista de mascotas</h1>
+<ul>
+    <hr />
+{% for pet in pets %}
+    <li>ID: {{pet.id}} | Nombre: {{ pet.name }} | Especie: {{pet.especie}} | Fecha de nacimiento: {{pet.nacimiento}} | Vacunas: {{pet.num_vac}}</li>
+{% endfor %}
+    <hr />
+</ul>
